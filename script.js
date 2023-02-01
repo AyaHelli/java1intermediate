@@ -8,6 +8,6 @@ console.table(fruits)
 let animals = ["monkey", "horse", "dog"];
 console.log(animals.push("cat"));
 console.log(animals.sort());
-let obst = ["mango/cherries/kiwi/grapes/pear/peach/orange/lemon"];
-let result = obst.split(/).join(" ");
-        console.log(result)
+let obst = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+let result = obst.split("/").join(" ");
+console.log(result);
